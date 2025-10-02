@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*   {
+    margin: 0;
+    padding: 0;
+}  
+
+body{
+    font-family: "Inter", sans-serif;
+    background-color: #f0f0f0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    display: flex;
+}
+
+.login {
+    background-color: #000E33;
+    color: white;
+    padding: 20px;
+    border-radius: 25px 0px 0px 25px;
+    text-align: center;
+    height: 561px;
+    width: 401px;
+    box-shadow: 5px 10px;
+}
+
+.title {
+    margin-top: 30px;
+    margin-bottom: 17%;
+    font-weight: 300;
+}
+
+.login input {
+    width: 80%;
+    margin-bottom: 40px;
+    padding: 15px;
+    border-radius: 15px;
+    border: none;
+    font-size: larger;
+}
+
+.login button {
+    background-color: white;
+    border: none;
+    padding: 9px 45px;
+    font-size: larger;
+    border-radius: 14px;
+    margin-top: -50px;
+    margin-bottom: 10px;
+}
+
+.login button:hover {
+    background-color: #e3e3e3;
+    cursor: pointer;
+}
+.banner {
+    height: 601px;
+    border-radius: 0 25px 25px 0;
+    width: 486px;
+}
+
+.login a {
+    margin-top: 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: lighter;
+}
+
+.login a:hover {
+    text-decoration: underline;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+#alerta {
+    color: red;
+    font-size: 14px;
+    display: none;
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+
+.select-nivel {
+    width: 80%;
+    padding: 9px;
+    border-radius: 15px;
+    border: none;
+    font-size: larger;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}

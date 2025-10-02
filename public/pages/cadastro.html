@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Controle Banheiro</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="login">
+        <h1 class="title">SENAI - CADASTRO</h1>
+        <form>
+            <input type="text" id="nome" name="nome" placeholder="Nome" required>
+            
+            <br>
+            <input type="number" id="rm" name="rm" placeholder="RM" required>
+            
+            <br>
+            <input type="password" id="senha" name="senha" placeholder="Senha" required>
+            
+            <br>
+            <input type="text" id="turma" name="turma" placeholder="Turma" required>
+            <br>
+        </form>
+
+        <button class="cadastro" onclick="cadastrarUsuario()">Cadastrar</button>
+        <p id="alerta" style="display:none;"></p>
+    </div>
+    <img src="https://cdn.discordapp.com/attachments/1408154503080841277/1423351369443840102/Component_13_1.png?ex=68dffec3&is=68dead43&hm=08c7c414bd0fc5639999e31773a194933fbc2260be7341fb4975f6b590272fc1" alt="Banner de Banheiro" class="banner">
+    <script src="js/cadastro.js"></script>
+</body>
+</html>
+
